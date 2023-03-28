@@ -8,6 +8,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class Application {
 
 	public static void main(String[] args) {
+		
+		//Changes for HIS-134
 		ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
 	    run.close();
 	}
